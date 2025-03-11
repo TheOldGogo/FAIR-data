@@ -1,0 +1,107 @@
+data:
+  data:
+    long_name: UPS intensity
+end_time: 2021-08-26T00:00:00+0300
+experiment_identifier: UPS STP
+experiment_institution: King Abdullah University of Science and Technology, Physical
+  Science and Engineering Division, Solar Technology Platform
+instrument:
+  analyser:
+    collectioncolumn:
+      device_information:
+        identifier: null
+        model: null
+        vendor: null
+      scheme: momentum dispersive
+    description: hemispherical
+    detector:
+      amplifier_type: MCP
+      detector_type: Anode
+    device_information:
+      identifier: null
+      model: ARGUS CU 128 channels
+      vendor: Scienta Omicron
+    energydispersion:
+      device_information:
+        identifier: null
+        model: null
+        vendor: null
+      diameter:
+        unit: mm
+        value: 150
+      energy_scan_mode: fixed_analyser_transmission
+      scheme: hemispherical
+    name: Argus CU 128 channels
+  beam_xray:
+    distance:
+      unit: mm
+      value: 0.0
+  device_information:
+    identifier: null
+    model: UPS/XPS setup
+    vendor: Scienta Omicron
+  energy_resolution:
+    resolution:
+      unit: eV
+      value: 0.1
+    type: calibrated
+  flood_gun:
+    current:
+      unit: A
+      value: 0.0
+    current_log:
+      value:
+        unit: null
+        value: null
+    name: null
+    physical_quantity: current
+    type: low energy electron source
+  manipulator:
+    device_information:
+      identifier: null
+      model: null
+      vendor: Scienta Omicron
+    sample_bias_potentiostat:
+      name: UPS/XPS sample potentiostat
+      physical_quantity: voltage
+      pid:
+        setpoint:
+          unit: V
+          value: 10.0
+      type: potentiostat
+  source_xray:
+    device_information:
+      identifier: null
+      model: null
+      vendor: null
+    probe: ultraviolet
+    type: UV Plasma Source
+program_name: Matrix
+sample:
+  description: D18 film prepared from chlorobenzene solution on Ti/Au coated Si
+  history:
+    sample_preparation:
+      description: spincoated (2000 rpm, 30 - 40 s) from chlorobenzene solution 2
+        mg/mL prepared the day before on Si coated with sputtered Ti/Au (10/100 nm
+        respectively). expected thickness 3-10 nm
+      end_time: 2021-08-26T00:00:00+0300
+      method: spincoating
+      start_time: 2021-08-26T00:00:00+0300
+  name: bla
+  situation: vacuum
+  substance:
+    cas_name: Poly{ (4,8-bis(5-(2-ethylhexyl)-4-fluorothiophen-2-yl)benzo[1,2-b:4,5-b']dithiophene-2,6-diyl)-alt-{5,8-[tributyl(4-(2-butyloctyl)thiophen)]-dithieno[3',2':3,4;2'',3'':5,6]benzo[1,2-c][1,2,5]thiadiazole}
+      }
+    cas_number: 2433725-54-1
+    cas_synonyms: "D18;D18 ISO 9001\uFF1A2015 REACH;D18 N;2'',3'':5,6]benzo[1,2-c][1,2,5]thiadiazolediyl]];D18,\
+      \ Poly[(2,6-(4,8-bis(5-(2-ethylhexyl-3-fluoro)thiophen-2-yl)-benzo[1,2-b:4,5-b\u2019\
+      ]dithiophene))-alt-5,5'-(5,8-bis(4-(2-butyloctyl)thiophen-2-yl)dithieno[3',2':3,4;2'',3'':5,6]benzo[1,2-c][1,2,5]thiadiazole)]"
+    molecular_formula_hill: (C76H92F2N2S7)n
+    name: D18
+start_time: 2021-08-26T00:00:00+0300
+title: UPS Experiment
+user:
+  affiliation: King Abdullah University of Science and Technology, Physical Science
+    and Engineering Division
+  email: jules.bertrandie@kaust.edu.sa
+  name: Jules Bertrandie

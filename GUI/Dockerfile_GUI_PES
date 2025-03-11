@@ -1,0 +1,25 @@
+# Use a minimal Python image
+FROM python:3.11-slim
+
+# # Set the correct user and group for the notebook user
+WORKDIR /GUI_PES
+
+# USER root
+
+# Copy pyproject.toml and install dependencies
+COPY pyproject.toml ./
+#RUN pip install --upgrade pip && pip install hatch && hatch env create
+
+# Copy the application code
+COPY PES_GUI.py .
+COPY ELNfiller.py .
+COPY Nomad_API.py .
+COPY Config ./Config
+
+RUN pip install .
+
+# Expose the necessary port
+EXPOSE 1981
+
+# Run the Solara application
+CMD ["sh", "-c", "solara", "run", "--port", "1981","PES_GUI.py", "&"]

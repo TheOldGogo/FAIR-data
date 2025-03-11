@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling >=0.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "GUI_PES-app"
+version = "0.0.1"
+
+[project]
+name = "pes-gui"
+version = "0.0.1"
+dependencies = [
+    "solara",
+    "pathlib",
+    "pynxtools",
+    "pynxtools-xps",
+    "pynxtools-mpes"
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
